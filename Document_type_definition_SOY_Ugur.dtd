@@ -1,0 +1,16 @@
+<!ELEMENT Bibliographie (Livres+)>
+<!ATTLIST Bibliographie
+		  SUJET CDATA #REQUIRED
+<!ELEMENT Livres (Auteur, Titre, Editeur, Datepublication)>
+<!ATTLIST Livres
+          ISBN CDATA #REQUIRED
+          LANG CDATA #REQUIRED
+		  Genre CDATA #REQUIRED>
+<!ELEMENT Auteur (Prenom, Nom)>
+<!ELEMENT Prenom (#PCDATA)>
+<!ELEMENT Nom (#PCDATA)>
+<!ELEMENT Titre (#PCDATA)>
+<!ELEMENT Editeur (Nom, Lieu)>
+<!ELEMENT Nom (#PCDATA)>
+<!ELEMENT Lieu (#PCDATA)>
+<!ELEMENT Datepublication (#PCDATA)>

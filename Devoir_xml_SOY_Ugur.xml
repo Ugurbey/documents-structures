@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<<!DOCTYPE Document_type_definition_SOY_Ugur SYSTEM "Document_type_definition_SOY_Ugur.dtd">
+<Bibliographie SUJET="Littéraire"> 
+	<Livres ISBN="9782212090819" LANG="Anglais" Genre="narratif"> 
+		<Auteur> 
+			<Prénom>Charles</Prénom> 
+			<Nom>Dickens</Nom> 
+		</Auteur> 
+		<Titre>Construire une application XML</Titre> 
+		<Editeur> 
+			<Nom>DoubleDay</Nom> 
+			<Lieu>New York</Lieu> 
+		</Editeur> 
+		<Datepublication>2009</Datepublication> 
+	</Livres> 
+	<Livres ISBN="9782212090529" LANG="fr" Genre="poétique"> 
+		<Auteur> 
+			<Prénom>Paul</Prénom> 
+			<Nom>Alhau</Nom> 
+		</Auteur> 
+		<Titre>Les Reculées</Titre> 
+		<Editeur> 
+			<Nom>Eyrolles</Nom> 
+			<Lieu>Paris</Lieu> 
+		</Editeur> 
+		<Datepublication>1998</Datepublication> 
+	</Livres>  
+</Bibliographie>

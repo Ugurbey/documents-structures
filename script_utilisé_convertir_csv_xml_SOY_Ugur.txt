@@ -1,0 +1,14 @@
+#!/bin/bash
+file_in="simple.csv"
+file_out="simple.xml"
+echo '<?xml version="1.0"?>' > $file_out
+echo '<Customers>' >> $file_out
+while IFS=$',' read -r -a arry
+do
+  echo '  <Customer>' >> $file_out
+  echo '    <Name>'${arry[0]}'</Name>' >> $file_out
+  echo '    <Age>'${arry[1]}'</Age>' >> $file_out
+  echo '    <Country>'${arry[2]}'</Country>' >> $file_out
+  echo '  </Customer>' >> $file_out
+done < $file_in
+echo '</Customers>' >> $file_out
